@@ -1,18 +1,60 @@
-## Getting Started
+# Car Rental System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+This is a console based Java application for managing a car rental system. It provides functionality to manage cars, customers, and rentals while ensuring smooth interaction between users and the system.
 
-## Folder Structure
+## Collaborators
+- Aryan Singhal : [AryanSinghal007](https://github.com/AryanSinghal007)
+- Ansh Bathla : [anshbathla](https://github.com/anshbathla)
 
-The workspace contains two folders by default, where:
+## Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. **Car Management**:
+   - Add new cars to the system with attributes like brand, model, and base price.
+   - Check car availability for rental.
+   - Calculate rental prices based on the number of days.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. **Customer Management**:
+   - Add new customers to the system with details like customer ID and name.
+   - Retrieve and view customer details.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3. **Rental Operations**:
+   - Rent a car to a customer for a specified number of days.
+   - Return a rented car and update its availability.
 
-## Dependency Management
+4. **User Interaction**:
+   - Display a menu-driven interface for system operations.
+   - Allow easy navigation and interaction with the application.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## How to Run
+
+1. Clone the repository to your local system.
+2. Ensure you have **Java JDK** installed (version 8 or higher).
+3. Compile the Java files using the following command:
+
+   ```bash
+   javac App.java
+4. Run the program
+
+   ```bash
+   java App
+
+## Future Enhancements
+
+1. Add support for dynamic pricing based on demand, rental duration, or special seasons.
+
+2. Implement a GUI for a more intuitive user experience.
+
+3. Add search functionality to find cars or customers by various attributes (e.g., car model, customer name).
+
+4. Integrate a database to persist customer, car, and rental data across sessions.
+
+5. Provide reporting features such as rental history, most rented cars, and customer statistics.
+
+6. Introduce loyalty rewards for frequent customers to enhance customer retention.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for review.
+
+## License
+This project is licensed under the MIT License.
