@@ -1,6 +1,6 @@
 # Car Rental System
 
-![diagram-export-09-01-2025-01_59_05](https://github.com/user-attachments/assets/ca1fc67a-d65a-4945-9b63-0b5ee1b46445)
+![diagram-export-09-01-2025-02_09_16](https://github.com/user-attachments/assets/730f4fed-47bf-4675-9988-db874d9bdf8e)
 ## Overview
 This is a console based Java application for managing a car rental system. It provides functionality to manage cars, customers, and rentals while ensuring smooth interaction between users and the system.
 
