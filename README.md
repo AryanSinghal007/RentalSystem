@@ -46,13 +46,11 @@ This is a console based Java application for managing a car rental system. It pr
 
 2. Implement a GUI for a more intuitive user experience.
 
-3. Add search functionality to find cars or customers by various attributes (e.g., car model, customer name).
+3. Integrate a database to persist customer, car, and rental data across sessions.
 
-4. Integrate a database to persist customer, car, and rental data across sessions.
+4. Provide reporting features such as rental history, most rented cars, and customer statistics.
 
-5. Provide reporting features such as rental history, most rented cars, and customer statistics.
-
-6. Introduce loyalty rewards for frequent customers to enhance customer retention.
+5. Introduce loyalty rewards for frequent customers to enhance customer retention.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for review.
